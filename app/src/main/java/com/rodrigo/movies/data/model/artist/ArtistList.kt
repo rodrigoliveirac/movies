@@ -1,4 +1,4 @@
-package com.rodrigo.movies.data.artist
+package com.rodrigo.movies.data.model.artist
 
 import com.google.gson.annotations.SerializedName
 

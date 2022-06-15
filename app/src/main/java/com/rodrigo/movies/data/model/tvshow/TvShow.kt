@@ -1,8 +1,10 @@
-package com.rodrigo.movies.data.tvshow
+package com.rodrigo.movies.data.model.tvshow
 
 
+import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
 
+@Entity(tableName = "popular_tvShows")
 data class TvShow(
     @SerializedName("first_air_date")
     val firstAirDate: String?,

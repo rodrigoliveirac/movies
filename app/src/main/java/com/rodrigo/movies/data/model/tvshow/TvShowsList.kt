@@ -1,4 +1,4 @@
-package com.rodrigo.movies.data.tvshow
+package com.rodrigo.movies.data.model.tvshow
 
 
 import com.google.gson.annotations.SerializedName

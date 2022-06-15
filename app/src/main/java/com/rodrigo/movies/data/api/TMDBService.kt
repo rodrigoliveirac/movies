@@ -1,8 +1,8 @@
 package com.rodrigo.movies.data.api
 
-import com.rodrigo.movies.data.artist.ArtistList
-import com.rodrigo.movies.data.movie.MovieList
-import com.rodrigo.movies.data.tvshow.TvShowsList
+import com.rodrigo.movies.data.model.artist.ArtistList
+import com.rodrigo.movies.data.model.movie.MovieList
+import com.rodrigo.movies.data.model.tvshow.TvShowsList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

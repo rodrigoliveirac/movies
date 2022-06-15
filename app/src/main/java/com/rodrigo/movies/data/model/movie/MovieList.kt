@@ -1,4 +1,4 @@
-package com.rodrigo.movies.data.movie
+package com.rodrigo.movies.data.model.movie
 import com.google.gson.annotations.SerializedName
 
 data class MovieList(

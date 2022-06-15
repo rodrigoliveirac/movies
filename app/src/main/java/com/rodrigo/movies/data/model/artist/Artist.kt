@@ -1,13 +1,14 @@
-package com.rodrigo.movies.data.artist
+package com.rodrigo.movies.data.model.artist
 
-import KnownFor
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
+@Entity(tableName = "popular_artists")
 data class Artist(
+    @PrimaryKey
     @SerializedName("id")
     val id: Int,
-    @SerializedName("known_for")
-    val knownFor: List<KnownFor>?,
     @SerializedName("name")
     val name: String?,
     @SerializedName("popularity")
